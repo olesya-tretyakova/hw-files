@@ -9,4 +9,9 @@ public class SimpleTests {
     void trueTest() {
         assertTrue(true);
     }
+
+    @Test
+    void falseTest() {
+        assertTrue(false);
+    }
 }
