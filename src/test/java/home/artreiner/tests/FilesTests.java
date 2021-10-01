@@ -73,5 +73,4 @@ public class FilesTests {
         assertThat(zipFile.getFileHeaders().toString()).containsIgnoringCase("file-sample");
         assertThat(zipFile.getFileHeaders().toString()).containsIgnoringCase("file_example");
     }
-
 }
