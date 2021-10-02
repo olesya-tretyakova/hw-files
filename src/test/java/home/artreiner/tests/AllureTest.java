@@ -17,3 +17,4 @@ public class AllureTest {
         $(".repo-list").shouldHave(Condition.text("allure"));
     }
 }
+
